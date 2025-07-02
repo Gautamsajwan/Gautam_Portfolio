@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
-    description: "This is a Portfolio website for Abhinav Gautam",
+    description: "This is a Portfolio website for Gautam Sajwan",
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
