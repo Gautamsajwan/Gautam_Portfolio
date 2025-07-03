@@ -250,6 +250,33 @@ export const DATA = {
       video: "",
     },
     {
+      title: "SupplySync",
+      href: "https://github.com/GautamSajwan/SupplySync",
+      dates: "",
+      active: true,
+      description:
+        "Designed an automated supply chain management system to improve transparency, traceability and reliability in industrial supply chain pipeline.",
+      technologies: [
+        "Next.js",
+        "ESP 32",
+        "Embedded c++",
+        "Mongo db",
+        "Express js",
+        "Shadcn UI",
+        "Zustand",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/GautamSajwan/SupplySyncc",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dn5rrff6s/image/upload/v1751520137/portfolio%20assets/3533af7d-f686-43bf-97c5-25f16c1fd3de.png",
+      video: "",
+    },
+    {
       title: "News-Ninja",
       href: "https://github.com/Gautamsajwan/NewsNinja",
       dates: "",
@@ -265,24 +292,6 @@ export const DATA = {
         },
       ],
       image: "https://res.cloudinary.com/dn5rrff6s/image/upload/v1751478373/portfolio%20assets/Screenshot_89_v3ural.png",
-      video: "",
-    },
-    {
-      title: "Notify",
-      href: "https://github.com/Gautamsajwan/Notify",
-      dates: "",
-      active: true,
-      description:
-        "A secure full-stack note-taking app with CRUD features, user authentication, and a clean, responsive UI for efficient note management.",
-      technologies: ["Javascript", "React.js", "MongoDB", "Express.js", "Tailwind CSS"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Gautamsajwan/Notify",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://res.cloudinary.com/dn5rrff6s/image/upload/v1751478367/portfolio%20assets/Screenshot_88_ooktes.png",
       video: "",
     },
   ],
