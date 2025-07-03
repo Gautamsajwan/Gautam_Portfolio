@@ -288,48 +288,68 @@ export const DATA = {
   ],
   hackathons: [
     {
-      eventName: "HackIndore",
-      logo: "/assets/hackindore_logo.png",
-      certificateLink:
-        "https://drive.google.com/file/d/10dZac8fANQYzQqFWDVDTtr167zg4RdD5/view?usp=sharing",
-      org: "Indore Municipal Corporation",
-      location: "Indore",
-      timeline: "Jul 2024",
+      title: "HackIndore",
+      dates: "July 2024",
+      location: "Indore Municipal Corporation, Indore, India",
       description:
-        "Proposed an online government asset management solution at Acropolis Institute of Engineering, reached top 10 teams.",
+        "Proposed and built an online government asset management solution at Acropolis Institute of Engineering and our team secured a rank among the top 10 submissions.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/10dZac8fANQYzQqFWDVDTtr167zg4RdD5/view?usp=sharing",
+        },
+      ],
     },
     {
-      eventName: "Innohacks",
-      logo: "/assets/innohacks_logo.png",
-      certificateLink:
-        "https://drive.google.com/file/d/1NFxuij7pPTrToMMS9nqIartJWVLGqTh3/view?usp=sharing",
-      org: "KIET Group of Institutions",
-      location: "Ghaziabad",
-      timeline: "Apr 2024",
+      title: "Innohacks",
+      dates: "April 2024",
+      location: "KIET Group of Institutions, Ghaziabad, India",
       description:
-        "Created a supply chain management system using IoT and a web interface for monitoring; reached the finals.",
+        "Created a supply chain management system integrating web dev and iot domain achieving transparency, monitoring and tracebility in industrial supply chain operations. Our idea got us among the finalists of the event.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/1NFxuij7pPTrToMMS9nqIartJWVLGqTh3/view?usp=sharing",
+        },
+      ],
     },
     {
-      eventName: "U-Hackathon 4.0",
-      logo: "/assets/upes_logo.jpg",
-      certificateLink:
-        "https://drive.google.com/file/d/1FTp8hsMyP65VmE0eP7zhUBo-oTFNTqLZ/view?usp=sharing",
-      org: "University of Petroleum and Energy Studies",
-      location: "Dehradun",
-      timeline: "Sep 2023",
+      title: "U-Hackathon 4.0",
+      dates: "September 2023",
+      location: "University of Petroleum and Energy Studies, Dehradun, India",
       description:
-        "Built a full stack LMS application with a team of 4 in 24 hours and secured a rank among the top 15 out of 300 teams.",
+        "Built an interactive full stack Learning Management System with my team in 24 hours addressing the pain points of the educators and students in this domain.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/1FTp8hsMyP65VmE0eP7zhUBo-oTFNTqLZ/view?usp=sharing",
+        },
+      ],
     },
     {
-      eventName: "TechSurf-2023",
-      logo: "assets/content_stack_logo.jpeg",
-      certificateLink:
-        "https://drive.google.com/file/d/1RZPI-TS9gaBGHDDa7VRwzlbpt0_xNrhP/view?usp=sharing",
-      org: "ContentStack",
-      location: "Remote",
-      timeline: "Aug 2023",
+      title: "TechSurf-2023",
+      dates: "August 2023",
+      location: "Remote - Dehradun, India",
       description:
-        "Designed and developed a full-stack Digital Asset Management web app in the final round, ranked top 5 out of 40,000+ candidates.",
+        "Designed and developed a Digital Asset Management system simplifying asset handling workflows for companies. It was a solo event and I secured rank 5 out of 40,000+ candidates.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "Certificate",
+          href: "https://drive.google.com/file/d/1RZPI-TS9gaBGHDDa7VRwzlbpt0_xNrhP/view?usp=sharing",
+        },
+      ],
     },
   ],
 } as const;
