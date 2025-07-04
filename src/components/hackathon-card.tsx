@@ -25,10 +25,12 @@ export function HackathonCard({
 }: Props) {
   return (
     <li className="relative ml-10 py-4">
-      <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-        <Avatar className="border size-12 m-auto">
+      <div className="absolute -left-16 top-2 flex items-center justify-center rounded-xl">
+        <Avatar className="size-12 m-auto rounded-xl">
           <AvatarImage src={image} alt={title} className="object-contain" />
-          <AvatarFallback>{title[0]}</AvatarFallback>
+          <AvatarFallback className="object-contain p-1 rounded-xl">
+            <img src="/code.png" alt="hackathon image" />
+          </AvatarFallback>
         </Avatar>
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">

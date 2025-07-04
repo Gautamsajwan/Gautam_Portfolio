@@ -158,17 +158,9 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like building things
                 </h2>
-                {/* <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length > 10 && DATA.hackathons.length || "10"}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
-                </p> */}
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time in university, I attended{" "}
-                  {DATA.hackathons.length > 10 && DATA.hackathons.length || "10"}+ hackathons. People from around the
+                  {DATA.hackathons.length > 10 && DATA.hackathons.length || "multiple"} hackathons. People from around the
                   country would come together and build incredible things in 2-3
                   days.
                 </p>
@@ -201,12 +193,12 @@ export default function Page() {
       <section id="skills">
         <div className="flex flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-2xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-2">
             {DATA?.skills?.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge>{skill}</Badge>
+                <Badge className="rounded-full bg-yellow-300 text-black">{skill}</Badge>
               </BlurFade>
             ))}
           </div>
